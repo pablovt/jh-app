@@ -48,17 +48,8 @@
             </li>
 
             <li class="nav-item">
-                <a href="{{ route('about') }}" class="nav-link">
-                    <i class="nav-icon far fa-address-card"></i>
-                    <p>
-                        {{ __('About us') }}
-                    </p>
-                </a>
-            </li>
-
-            <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-circle nav-icon"></i>
+                    <i class="nav-icon fas fa-users-cog nav-icon"></i>
                     <p>
                         Configurações
                         <i class="fas fa-angle-left right"></i>
