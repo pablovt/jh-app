@@ -21,15 +21,6 @@
             </li>
 
             <li class="nav-item">
-                <a href="{{ route('users.index') }}" class="nav-link">
-                    <i class="nav-icon fas fa-users"></i>
-                    <p>
-                        {{ __('Users') }}
-                    </p>
-                </a>
-            </li>
-
-            <li class="nav-item">
                 <a href="{{ route('tipopagamentos.index') }}" class="nav-link">
                     <i class="nav-icon fas fa-money-check-alt"></i>
                     <p>
@@ -69,15 +60,15 @@
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-circle nav-icon"></i>
                     <p>
-                        Two-level menu
+                        Configurações
                         <i class="fas fa-angle-left right"></i>
                     </p>
                 </a>
                 <ul class="nav nav-treeview" style="display: none;">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="{{ route('users.index') }}" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Child menu</p>
+                            <p>Usuários</p>
                         </a>
                     </li>
                 </ul>

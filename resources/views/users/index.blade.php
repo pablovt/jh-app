@@ -19,17 +19,13 @@
             <div class="row">
                 <div class="col-lg-12">
 
-                    <div class="alert alert-info">
-                        Sample table page
-                    </div>
-
                     <div class="card">
                         <div class="card-body p-0">
 
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>Name</th>
+                                        <th>Nome</th>
                                         <th>Email</th>
                                     </tr>
                                 </thead>
@@ -37,7 +33,7 @@
                                 @foreach($users as $user)
                                     <tr>
                                         <td>{{ $user->name }}</td>
-                                        <td>{{ $user->email }}</td>
+                                        <td>{{ $user->email }}</td><!---  Trocar para telefone -->
                                     </tr>
                                 @endforeach
                                 </tbody>
